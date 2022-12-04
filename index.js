@@ -7,7 +7,7 @@ import mydata from './Bureau_TOPO.json' assert { type: "json" };
 app.use(cors())
 app.use(bodyParser.json());
 
-const DATABASE_URL = "postgresql://postgres:qljEtxAsWJCXwG8ix30d@containers-us-west-143.railway.app:8064/railway";
+const DATABASE_URL = "postgresql://postgres:gJNhcJpX2KiwVPuNGRrk@containers-us-west-123.railway.app:6582/railway";
 const pool = new pg.Pool({
     DATABASE_URL,
 });
